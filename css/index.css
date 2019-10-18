@@ -1,0 +1,82 @@
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header{
+  font-size: 5em;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  text-align: center;
+  z-index: 100;
+}
+
+.gallery{
+  font-family: 'Fascinate Inline', cursive;
+  margin-top: 6em;
+  color: white;
+}
+
+article{
+  position: relative;
+}
+
+img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width:100vw;
+}
+
+.city-name{
+  font-size: 4em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  z-index: 50;
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+.city-toronto:hover .city-name{
+  opacity: 1;
+  z-index: 1000;;
+}
+
+.city-toronto:hover .city-photo{
+  opacity: 0.7;
+}
+.city-helsinki:hover .city-name{
+  opacity: 1;
+  z-index: 1000;;
+}
+
+.city-helsinki:hover .city-photo{
+  opacity: 0.7;
+}
+.city-osaka:hover .city-name{
+  opacity: 1;
+  z-index: 1000;;
+}
+
+.city-osaka:hover .city-photo{
+  opacity: 0.7;
+}
+.city-lagos:hover .city-name{
+  opacity: 1;
+  z-index: 1000;;
+}
+
+.city-lagos:hover .city-photo{
+  opacity: 0.7;
+}
+
+
+
